@@ -3,9 +3,9 @@
     "chances": {
       "equipment": {
         "ArmBand": 20,
-        "ArmorVest": 55,
+        "ArmorVest": 65,
         "Backpack": 90,
-        "Earpiece": 85,
+        "Earpiece": 95,
         "Eyewear": 20,
         "FaceCover": 50,
         "FirstPrimaryWeapon": 100,
@@ -36,7 +36,7 @@
         "mod_charge": 100,
         "mod_charge_001": 0,
         "mod_flashlight": 45,
-        "mod_foregrip": 35,
+        "mod_foregrip": 80,
         "mod_hammer": 100,
         "mod_handguard": 100,
         "mod_launcher": 1,
@@ -57,7 +57,7 @@
         "mod_pistolgrip": 100,
         "mod_pistolgrip_000": 100,
         "mod_reciever": 100,
-        "mod_scope": 80,
+        "mod_scope": 95,
         "mod_scope_000": 85,
         "mod_scope_001": 20,
         "mod_scope_002": 20,
@@ -89,7 +89,7 @@
         "mod_charge": 100,
         "mod_charge_001": 0,
         "mod_flashlight": 45,
-        "mod_foregrip": 35,
+        "mod_foregrip": 80,
         "mod_hammer": 100,
         "mod_handguard": 100,
         "mod_launcher": 1,
@@ -102,7 +102,7 @@
         "mod_mount_004": 95,
         "mod_mount_005": 15,
         "mod_mount_006": 15,
-        "mod_muzzle": 40,
+        "mod_muzzle": 60,
         "mod_muzzle_000": 40,
         "mod_muzzle_001": 40,
         "mod_pistol_grip": 100,
@@ -142,7 +142,7 @@
         "mod_charge": 100,
         "mod_charge_001": 0,
         "mod_flashlight": 45,
-        "mod_foregrip": 35,
+        "mod_foregrip": 80,
         "mod_hammer": 100,
         "mod_handguard": 100,
         "mod_launcher": 1,
@@ -155,7 +155,7 @@
         "mod_mount_004": 25,
         "mod_mount_005": 25,
         "mod_mount_006": 25,
-        "mod_muzzle": 40,
+        "mod_muzzle": 60,
         "mod_muzzle_000": 40,
         "mod_muzzle_001": 40,
         "mod_pistol_grip": 100,
@@ -195,7 +195,7 @@
         "mod_charge": 100,
         "mod_charge_001": 0,
         "mod_flashlight": 45,
-        "mod_foregrip": 35,
+        "mod_foregrip": 80,
         "mod_hammer": 100,
         "mod_handguard": 100,
         "mod_launcher": 1,
@@ -208,7 +208,7 @@
         "mod_mount_004": 15,
         "mod_mount_005": 15,
         "mod_mount_006": 15,
-        "mod_muzzle": 40,
+        "mod_muzzle": 60,
         "mod_muzzle_000": 40,
         "mod_muzzle_001": 40,
         "mod_pistol_grip": 100,
@@ -248,7 +248,7 @@
         "mod_charge": 100,
         "mod_charge_001": 25,
         "mod_flashlight": 45,
-        "mod_foregrip": 45,
+        "mod_foregrip": 80,
         "mod_hammer": 100,
         "mod_handguard": 100,
         "mod_launcher": 1,
@@ -261,7 +261,7 @@
         "mod_mount_004": 15,
         "mod_mount_005": 15,
         "mod_mount_006": 15,
-        "mod_muzzle": 50,
+        "mod_muzzle": 60,
         "mod_muzzle_000": 50,
         "mod_muzzle_001": 50,
         "mod_pistol_grip": 100,
@@ -301,7 +301,7 @@
         "mod_charge": 100,
         "mod_charge_001": 0,
         "mod_flashlight": 45,
-        "mod_foregrip": 45,
+        "mod_foregrip": 80,
         "mod_hammer": 100,
         "mod_handguard": 100,
         "mod_launcher": 1,
@@ -314,7 +314,7 @@
         "mod_mount_004": 15,
         "mod_mount_005": 15,
         "mod_mount_006": 15,
-        "mod_muzzle": 40,
+        "mod_muzzle": 60,
         "mod_muzzle_000": 40,
         "mod_muzzle_001": 40,
         "mod_pistol_grip": 100,
@@ -354,7 +354,7 @@
         "mod_charge": 100,
         "mod_charge_001": 0,
         "mod_flashlight": 45,
-        "mod_foregrip": 45,
+        "mod_foregrip": 80,
         "mod_hammer": 100,
         "mod_handguard": 100,
         "mod_launcher": 1,
@@ -367,7 +367,7 @@
         "mod_mount_004": 30,
         "mod_mount_005": 30,
         "mod_mount_006": 30,
-        "mod_muzzle": 50,
+        "mod_muzzle": 60,
         "mod_muzzle_000": 50,
         "mod_muzzle_001": 50,
         "mod_pistol_grip": 100,
@@ -562,53 +562,58 @@
         "items": {
           "grenades": {
             "weights": {
-              "0": 50,
-              "1": 40,
-              "2": 10,
-              "3": 0,
-              "4": 0,
-              "5": 0,
+              "0": 1,
+              "1": 2,
+              "2": 4,
+              "3": 3,
+              "4": 2,
+              "5": 1,
               "6": 0,
               "7": 0
             },
             "whitelist": {
-              "5710c24ad2720bc3458b45a3": 10,
-              "5448be9a4bdc2dfd2f8b456a": 10,
-              "58d3db5386f77426186285a0": 10,
-              "5a0c27731526d80618476ac4": 3,
-              "619256e5f8af2c1a4e1f5d92": 3,
+              "5710c24ad2720bc3458b45a3": 5,
+              "5448be9a4bdc2dfd2f8b456a": 5,
+              "58d3db5386f77426186285a0": 4,
+              "5a0c27731526d80618476ac4": 2,
+              "619256e5f8af2c1a4e1f5d92": 1,
               "617aa4dd8166f034d57de9c5": 1,
-              "5a2a57cfc4a2826c6e06d44a": 1
+              "5a2a57cfc4a2826c6e06d44a": 1,
+              "618a431df1eb8e24b8741deb": 2,
+              "617fd91e5539a84ec44ce155": 2,
+              "66dae7cbeb28f0f96809f325": 4,
+              "5e340dcdcb6d5863cc5e5efb": 3,
+              "5e32f56fcb6d5863cc5e5ee4": 4
             }
           },
           "healing": {
             "weights": {
-              "0": 10,
-              "1": 65,
-              "2": 25,
-              "3": 0,
-              "4": 0,
+              "0": 0,
+              "1": 2,
+              "2": 4,
+              "3": 5,
+              "4": 1,
               "5": 0,
               "6": 0,
               "7": 0
             },
             "whitelist": {
-              "5755356824597772cb798962": 1,
-              "590c661e86f7741e566b646a": 10,
-              "544fb45d4bdc2dee738b4568": 15,
-              "60098ad7c2240c0fe85c570a": 10,
+              "544fb45d4bdc2dee738b4568": 5,
+              "60098ad7c2240c0fe85c570a": 5,
               "5e8488fa988a8701445df1e4": 5,
-              "544fb3364bdc2d34748b456a": 1,
-              "5af0454c86f7746bf20992e8": 5,
-              "544fb25a4bdc2dfb738b4567": 1,
-              "5751a25924597722c463c472": 5
+              "5af0454c86f7746bf20992e8": 4,
+              "5751a25924597722c463c472": 2,
+              "590c657e86f77412b013051d": 2,
+              "590c678286f77426c9660122": 5,
+              "5d02778e86f774203e7dedbe": 4,
+              "5d02797c86f774203f38e30a": 3
             }
           },
           "drugs": {
             "weights": {
-              "0": 70,
-              "1": 30,
-              "2": 0,
+              "0": 1,
+              "1": 2,
+              "2": 1,
               "3": 0,
               "4": 0,
               "5": 0,
@@ -616,10 +621,10 @@
               "7": 0
             },
             "whitelist": {
-              "544fb37f4bdc2dee738b4567": 5,
-              "590c695186f7741e566b64a2": 5,
-              "544fb3f34bdc2d03748b456a": 5,
-              "5755383e24597772cb798966": 5
+              "544fb37f4bdc2dee738b4567": 1,
+              "590c695186f7741e566b64a2": 4,
+              "544fb3f34bdc2d03748b456a": 2,
+              "5755383e24597772cb798966": 3
             }
           },
           "food": {
@@ -682,6 +687,40 @@
           },
           "currency": {
             "weights": {
+              "0": 5,
+              "1": 1,
+              "2": 0,
+              "3": 0,
+              "4": 0,
+              "5": 0,
+              "6": 0,
+              "7": 0
+            },
+            "whitelist": {
+              "5449016a4bdc2d6f028b456f": 1
+            }
+          },
+          "stims": {
+            "weights": {
+              "0": 5,
+              "1": 3,
+              "2": 2,
+              "3": 1,
+              "4": 0,
+              "5": 0,
+              "6": 0,
+              "7": 0
+            },
+            "whitelist": {
+              "5c0e530286f7747fa1419862": 5,
+              "5c0e534186f7747fa1419867": 2,
+              "5c0e533786f7747fa23f4d47": 3,
+              "5c10c8fd86f7743d7d706df3": 4,
+              "637b6179104668754b72f8f5": 1
+            }
+          },
+          "backpackLoot": {
+            "weights": {
               "0": 1,
               "1": 0,
               "2": 0,
@@ -693,46 +732,13 @@
             },
             "whitelist": {}
           },
-          "stims": {
-            "weights": {
-              "0": 65,
-              "1": 25,
-              "2": 10,
-              "3": 0,
-              "4": 0,
-              "5": 0,
-              "6": 0,
-              "7": 0
-            },
-            "whitelist": {
-              "5c0e530286f7747fa1419862": 10,
-              "5c0e534186f7747fa1419867": 2,
-              "5ed51652f6c34d2cc26336a1": 2,
-              "5c0e531d86f7747fa23f4d42": 1,
-              "637b620db7afa97bfc3d7009": 1,
-              "5c0e533786f7747fa23f4d47": 1
-            }
-          },
-          "backpackLoot": {
-            "weights": {
-              "0": 1,
-              "1": 100,
-              "2": 2,
-              "3": 1,
-              "4": 0,
-              "5": 50,
-              "6": 70,
-              "7": 90
-            },
-            "whitelist": {}
-          },
           "pocketLoot": {
             "weights": {
               "0": 1,
-              "1": 6,
-              "2": 3,
-              "3": 1,
-              "4": 1,
+              "1": 0,
+              "2": 0,
+              "3": 0,
+              "4": 0,
               "5": 0,
               "6": 0,
               "7": 0
@@ -743,8 +749,8 @@
             "weights": {
               "0": 1,
               "1": 1,
-              "2": 2,
-              "3": 1,
+              "2": 0,
+              "3": 0,
               "4": 0,
               "5": 0,
               "6": 0,
@@ -756,10 +762,10 @@
             "weights": {
               "0": 0,
               "1": 0,
-              "2": 20,
-              "3": 70,
-              "4": 10,
-              "5": 0,
+              "2": 2,
+              "3": 5,
+              "4": 4,
+              "5": 2,
               "6": 0,
               "7": 0
             },
@@ -786,9 +792,9 @@
     "chances": {
       "equipment": {
         "ArmBand": 20,
-        "ArmorVest": 55,
+        "ArmorVest": 65,
         "Backpack": 90,
-        "Earpiece": 85,
+        "Earpiece": 95,
         "Eyewear": 20,
         "FaceCover": 50,
         "FirstPrimaryWeapon": 100,
@@ -819,7 +825,7 @@
         "mod_charge": 100,
         "mod_charge_001": 0,
         "mod_flashlight": 45,
-        "mod_foregrip": 35,
+        "mod_foregrip": 80,
         "mod_hammer": 100,
         "mod_handguard": 100,
         "mod_launcher": 1,
@@ -832,7 +838,7 @@
         "mod_mount_004": 15,
         "mod_mount_005": 15,
         "mod_mount_006": 15,
-        "mod_muzzle": 40,
+        "mod_muzzle": 60,
         "mod_muzzle_000": 40,
         "mod_muzzle_001": 40,
         "mod_pistol_grip": 100,
@@ -840,7 +846,7 @@
         "mod_pistolgrip": 100,
         "mod_pistolgrip_000": 100,
         "mod_reciever": 100,
-        "mod_scope": 80,
+        "mod_scope": 95,
         "mod_scope_000": 85,
         "mod_scope_001": 20,
         "mod_scope_002": 20,
@@ -872,7 +878,7 @@
         "mod_charge": 100,
         "mod_charge_001": 0,
         "mod_flashlight": 45,
-        "mod_foregrip": 35,
+        "mod_foregrip": 80,
         "mod_hammer": 100,
         "mod_handguard": 100,
         "mod_launcher": 1,
@@ -885,7 +891,7 @@
         "mod_mount_004": 95,
         "mod_mount_005": 15,
         "mod_mount_006": 15,
-        "mod_muzzle": 40,
+        "mod_muzzle": 60,
         "mod_muzzle_000": 40,
         "mod_muzzle_001": 40,
         "mod_pistol_grip": 100,
@@ -925,7 +931,7 @@
         "mod_charge": 100,
         "mod_charge_001": 0,
         "mod_flashlight": 45,
-        "mod_foregrip": 35,
+        "mod_foregrip": 80,
         "mod_hammer": 100,
         "mod_handguard": 100,
         "mod_launcher": 1,
@@ -938,7 +944,7 @@
         "mod_mount_004": 25,
         "mod_mount_005": 25,
         "mod_mount_006": 25,
-        "mod_muzzle": 40,
+        "mod_muzzle": 60,
         "mod_muzzle_000": 40,
         "mod_muzzle_001": 40,
         "mod_pistol_grip": 100,
@@ -978,7 +984,7 @@
         "mod_charge": 100,
         "mod_charge_001": 0,
         "mod_flashlight": 45,
-        "mod_foregrip": 35,
+        "mod_foregrip": 80,
         "mod_hammer": 100,
         "mod_handguard": 100,
         "mod_launcher": 1,
@@ -991,7 +997,7 @@
         "mod_mount_004": 15,
         "mod_mount_005": 15,
         "mod_mount_006": 15,
-        "mod_muzzle": 40,
+        "mod_muzzle": 60,
         "mod_muzzle_000": 40,
         "mod_muzzle_001": 40,
         "mod_pistol_grip": 100,
@@ -1031,7 +1037,7 @@
         "mod_charge": 100,
         "mod_charge_001": 25,
         "mod_flashlight": 45,
-        "mod_foregrip": 45,
+        "mod_foregrip": 80,
         "mod_hammer": 100,
         "mod_handguard": 100,
         "mod_launcher": 1,
@@ -1044,7 +1050,7 @@
         "mod_mount_004": 15,
         "mod_mount_005": 15,
         "mod_mount_006": 15,
-        "mod_muzzle": 50,
+        "mod_muzzle": 60,
         "mod_muzzle_000": 50,
         "mod_muzzle_001": 50,
         "mod_pistol_grip": 100,
@@ -1084,7 +1090,7 @@
         "mod_charge": 100,
         "mod_charge_001": 0,
         "mod_flashlight": 45,
-        "mod_foregrip": 45,
+        "mod_foregrip": 80,
         "mod_hammer": 100,
         "mod_handguard": 100,
         "mod_launcher": 1,
@@ -1097,7 +1103,7 @@
         "mod_mount_004": 15,
         "mod_mount_005": 15,
         "mod_mount_006": 15,
-        "mod_muzzle": 40,
+        "mod_muzzle": 60,
         "mod_muzzle_000": 40,
         "mod_muzzle_001": 40,
         "mod_pistol_grip": 100,
@@ -1105,7 +1111,7 @@
         "mod_pistolgrip": 100,
         "mod_pistolgrip_000": 100,
         "mod_reciever": 100,
-        "mod_scope": 80,
+        "mod_scope": 95,
         "mod_scope_000": 85,
         "mod_scope_001": 20,
         "mod_scope_002": 20,
@@ -1137,7 +1143,7 @@
         "mod_charge": 100,
         "mod_charge_001": 0,
         "mod_flashlight": 45,
-        "mod_foregrip": 45,
+        "mod_foregrip": 80,
         "mod_hammer": 100,
         "mod_handguard": 100,
         "mod_launcher": 1,
@@ -1150,7 +1156,7 @@
         "mod_mount_004": 30,
         "mod_mount_005": 30,
         "mod_mount_006": 30,
-        "mod_muzzle": 50,
+        "mod_muzzle": 60,
         "mod_muzzle_000": 50,
         "mod_muzzle_001": 50,
         "mod_pistol_grip": 100,
@@ -1158,7 +1164,7 @@
         "mod_pistolgrip": 100,
         "mod_pistolgrip_000": 100,
         "mod_reciever": 100,
-        "mod_scope": 75,
+        "mod_scope": 95,
         "mod_scope_000": 85,
         "mod_scope_001": 20,
         "mod_scope_002": 20,
@@ -1345,53 +1351,58 @@
         "items": {
           "grenades": {
             "weights": {
-              "0": 50,
-              "1": 40,
-              "2": 10,
-              "3": 0,
-              "4": 0,
+              "0": 1,
+              "1": 2,
+              "2": 4,
+              "3": 3,
+              "4": 2,
               "5": 0,
               "6": 0,
               "7": 0
             },
             "whitelist": {
-              "5710c24ad2720bc3458b45a3": 10,
-              "5448be9a4bdc2dfd2f8b456a": 10,
-              "58d3db5386f77426186285a0": 10,
-              "5a0c27731526d80618476ac4": 3,
-              "619256e5f8af2c1a4e1f5d92": 3,
+              "5710c24ad2720bc3458b45a3": 5,
+              "5448be9a4bdc2dfd2f8b456a": 5,
+              "58d3db5386f77426186285a0": 4,
+              "5a0c27731526d80618476ac4": 1,
+              "619256e5f8af2c1a4e1f5d92": 1,
               "617aa4dd8166f034d57de9c5": 1,
-              "5a2a57cfc4a2826c6e06d44a": 1
+              "5a2a57cfc4a2826c6e06d44a": 1,
+              "618a431df1eb8e24b8741deb": 2,
+              "617fd91e5539a84ec44ce155": 2,
+              "66dae7cbeb28f0f96809f325": 4,
+              "5e340dcdcb6d5863cc5e5efb": 3,
+              "5e32f56fcb6d5863cc5e5ee4": 4
             }
           },
           "healing": {
             "weights": {
-              "0": 10,
-              "1": 65,
-              "2": 25,
-              "3": 0,
-              "4": 0,
+              "0": 0,
+              "1": 2,
+              "2": 4,
+              "3": 5,
+              "4": 1,
               "5": 0,
               "6": 0,
               "7": 0
             },
             "whitelist": {
-              "5755356824597772cb798962": 1,
-              "590c661e86f7741e566b646a": 10,
-              "544fb45d4bdc2dee738b4568": 15,
-              "60098ad7c2240c0fe85c570a": 10,
+              "544fb45d4bdc2dee738b4568": 5,
+              "60098ad7c2240c0fe85c570a": 5,
               "5e8488fa988a8701445df1e4": 5,
-              "544fb3364bdc2d34748b456a": 1,
-              "5af0454c86f7746bf20992e8": 5,
-              "544fb25a4bdc2dfb738b4567": 1,
-              "5751a25924597722c463c472": 5
+              "5af0454c86f7746bf20992e8": 4,
+              "5751a25924597722c463c472": 5,
+              "590c657e86f77412b013051d": 2,
+              "590c678286f77426c9660122": 5,
+              "5d02778e86f774203e7dedbe": 4,
+              "5d02797c86f774203f38e30a": 3
             }
           },
           "drugs": {
             "weights": {
-              "0": 70,
-              "1": 30,
-              "2": 0,
+              "0": 1,
+              "1": 2,
+              "2": 1,
               "3": 0,
               "4": 0,
               "5": 0,
@@ -1399,10 +1410,10 @@
               "7": 0
             },
             "whitelist": {
-              "544fb37f4bdc2dee738b4567": 5,
-              "590c695186f7741e566b64a2": 5,
-              "544fb3f34bdc2d03748b456a": 5,
-              "5755383e24597772cb798966": 5
+              "544fb37f4bdc2dee738b4567": 1,
+              "590c695186f7741e566b64a2": 4,
+              "544fb3f34bdc2d03748b456a": 2,
+              "5755383e24597772cb798966": 3
             }
           },
           "food": {
@@ -1465,6 +1476,40 @@
           },
           "currency": {
             "weights": {
+              "0": 5,
+              "1": 1,
+              "2": 0,
+              "3": 0,
+              "4": 0,
+              "5": 0,
+              "6": 0,
+              "7": 0
+            },
+            "whitelist": {
+              "5449016a4bdc2d6f028b456f": 1
+            }
+          },
+          "stims": {
+            "weights": {
+              "0": 5,
+              "1": 3,
+              "2": 2,
+              "3": 1,
+              "4": 0,
+              "5": 0,
+              "6": 0,
+              "7": 0
+            },
+            "whitelist": {
+              "5c0e530286f7747fa1419862": 5,
+              "5c0e534186f7747fa1419867": 2,
+              "5c0e533786f7747fa23f4d47": 3,
+              "5c10c8fd86f7743d7d706df3": 4,
+              "637b6179104668754b72f8f5": 1
+            }
+          },
+          "backpackLoot": {
+            "weights": {
               "0": 1,
               "1": 0,
               "2": 0,
@@ -1476,46 +1521,13 @@
             },
             "whitelist": {}
           },
-          "stims": {
-            "weights": {
-              "0": 65,
-              "1": 25,
-              "2": 10,
-              "3": 0,
-              "4": 0,
-              "5": 0,
-              "6": 0,
-              "7": 0
-            },
-            "whitelist": {
-              "5c0e530286f7747fa1419862": 10,
-              "5c0e534186f7747fa1419867": 2,
-              "5ed51652f6c34d2cc26336a1": 2,
-              "5c0e531d86f7747fa23f4d42": 1,
-              "637b620db7afa97bfc3d7009": 1,
-              "5c0e533786f7747fa23f4d47": 1
-            }
-          },
-          "backpackLoot": {
-            "weights": {
-              "0": 1,
-              "1": 1,
-              "2": 2,
-              "3": 1,
-              "4": 0,
-              "5": 0,
-              "6": 0,
-              "7": 0
-            },
-            "whitelist": {}
-          },
           "pocketLoot": {
             "weights": {
               "0": 1,
-              "1": 6,
-              "2": 3,
-              "3": 1,
-              "4": 1,
+              "1": 0,
+              "2": 0,
+              "3": 0,
+              "4": 0,
               "5": 0,
               "6": 0,
               "7": 0
@@ -1525,9 +1537,9 @@
           "vestLoot": {
             "weights": {
               "0": 1,
-              "1": 1,
-              "2": 2,
-              "3": 1,
+              "1": 0,
+              "2": 0,
+              "3": 0,
               "4": 0,
               "5": 0,
               "6": 0,
@@ -1539,10 +1551,10 @@
             "weights": {
               "0": 0,
               "1": 0,
-              "2": 20,
-              "3": 70,
-              "4": 10,
-              "5": 0,
+              "2": 2,
+              "3": 5,
+              "4": 4,
+              "5": 2,
               "6": 0,
               "7": 0
             },
@@ -16588,28 +16600,28 @@
           "healing": {
             "weights": {
               "0": 1,
-              "1": 70,
+              "1": 90,
               "2": 80,
-              "3": 50,
-              "4": 30,
+              "3": 30,
+              "4": 25,
               "5": 0,
               "6": 0,
               "7": 0
             },
             "whitelist": {
-              "544fb45d4bdc2dee738b4568": 10,
-              "5751a25924597722c463c472": 10,
-              "590c661e86f7741e566b646a": 10,
-              "544fb3364bdc2d34748b456a": 10,
-              "5e831507ea0a7c419c2f9bd9": 10,
-              "60098af40accd37ef2175f27": 10
+              "544fb45d4bdc2dee738b4568": 2,
+              "5751a25924597722c463c472": 1,
+              "590c661e86f7741e566b646a": 2,
+              "544fb3364bdc2d34748b456a": 2,
+              "5e831507ea0a7c419c2f9bd9": 1,
+              "60098af40accd37ef2175f27": 2
             }
           },
           "drugs": {
             "weights": {
               "0": 1,
               "1": 80,
-              "2": 40,
+              "2": 25,
               "3": 0,
               "4": 0,
               "5": 0,
@@ -16735,7 +16747,7 @@
               "1": 0,
               "2": 1,
               "3": 3,
-              "4": 1,
+              "4": 0,
               "5": 0,
               "6": 0,
               "7": 0
