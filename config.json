@@ -3,13 +3,50 @@
   "presetName": "realistic",
   "compatibilityConfig": {
     "enableModdedWeapons": true,
+    "useDynamicWeaponWeights": true,
+    "dynamicWeaponWeightMultipliers": {
+      "pmc": 1.25,
+      "scav": 0.8,
+      "follower": 1
+    },
+    "pmcWeaponWeights": 8,
+    "scavWeaponWeights": 2,
+    "followerWeaponWeights": 6,
     "enableModdedEquipment": true,
-    "enableModdedClothing": true,
+    "forceScavEquipmentWeight": false,
+    "forceScavEquipmentWeightValue": 1,
+    "useDynamicEquipmentWeights": true,
+    "dynamicEquipmentWeightMultipliers": {
+      "headwear": 1.1,
+      "headwearWithSlots": 1,
+      "armorVest": 1,
+      "armouredRig": 1,
+      "tacticalVest": 1,
+      "tacticalVestLargeGrid": 1,
+      "backpack": 0.1,
+      "faceCover": 1,
+      "faceCoverAc0": 1,
+      "faceCoverAc2": 1,
+      "eyewear": 1.5,
+      "earpiece": 0.6,
+      "armBand": 3
+    },
+    "armBandWeight": 4,
+    "armourVestWeight": 10,
+    "armouredRigWeight": 7,
+    "backpackWeight": 5,
+    "eyewearWeight": 1,
+    "earpieceWeight": 5,
+    "faceCoverAc2Weight": 1,
+    "faceCoverAc0Weight": 2,
+    "faceCoverWeight": 4,
+    "headwearESlotWeight": 6,
+    "headwearWeight": 5,
+    "tacticalVestGLengthWeight": 10,
+    "tacticalVestWeight": 9,
+    "enableModdedClothing": false,
     "enableModdedAttachments": true,
-    "initalTierAppearance": 3,
-    "pmcWeaponWeights": 6,
-    "scavWeaponWeights": 1,
-    "followerWeaponWeights": 5,
+    "initalTierAppearance": 2,
     "enableSafeGuard": true,
     "enableMPRSafeGuard": true,
     "PackNStrap_UnlootablePMCArmbandBelts": false,
@@ -17,7 +54,12 @@
     "WttArmoury_AddBossVariantsToBosses": true,
     "WttArmoury_AddBossVariantsToOthers": true,
     "Realism_AddGasMasksToBots": false,
-    "General_SecureContainerAmmoStacks": 20
+    "General_SecureContainerAmmoStacks": 20,
+    "secrets": {
+      "AprilFoolsEvent": false,
+      "HalloweenEvent": false,
+      "ChristmasEvent": false
+    }
   },
   "normalizedHealthPool": {
     "enable": false,
@@ -49,6 +91,9 @@
   },
   "generalConfig": {
     "enablePerWeaponTypeAttachmentChances": true,
+    "enableLooseAmmoOnBots": true,
+    "looseAmmoChance": 70,
+    "looseAmmoLimit": 60,
     "enableLargeCapacityMagazineLimit": true,
     "largeCapacityMagazineCount": 2,
     "forceStock": true,
@@ -80,12 +125,12 @@
         "ShortRange": 80
       },
       "RezervBase": {
-        "LongRange": 20,
-        "ShortRange": 80
+        "LongRange": 25,
+        "ShortRange": 75
       },
       "laboratory": {
-        "LongRange": 5,
-        "ShortRange": 95
+        "LongRange": 10,
+        "ShortRange": 90
       },
       "factory4_night": {
         "LongRange": 5,
@@ -96,8 +141,8 @@
         "ShortRange": 95
       },
       "Interchange": {
-        "LongRange": 20,
-        "ShortRange": 80
+        "LongRange": 25,
+        "ShortRange": 75
       },
       "Sandbox": {
         "LongRange": 15,
@@ -108,20 +153,20 @@
         "ShortRange": 85
       },
       "Woods": {
-        "LongRange": 65,
-        "ShortRange": 35
+        "LongRange": 60,
+        "ShortRange": 40
       },
       "Shoreline": {
         "LongRange": 45,
         "ShortRange": 55
       },
       "Lighthouse": {
-        "LongRange": 30,
-        "ShortRange": 70
+        "LongRange": 35,
+        "ShortRange": 65
       },
       "TarkovStreets": {
-        "LongRange": 15,
-        "ShortRange": 85
+        "LongRange": 25,
+        "ShortRange": 75
       },
       "Labyrinth": {
         "LongRange": 5,
@@ -129,13 +174,13 @@
       }
     },
     "plateChances": {
-      "enable": false,
+      "enable": true,
       "pmcMainPlateChance": [
         65,
-        75,
-        90,
+        80,
         90,
         95,
+        100,
         100,
         100
       ],
@@ -256,9 +301,9 @@
         "tier2": {
           "front_plate": {
             "2": 0,
-            "3": 65,
-            "4": 33,
-            "5": 2,
+            "3": 30,
+            "4": 55,
+            "5": 10,
             "6": 0
           },
           "back_plate": {
@@ -286,31 +331,31 @@
         "tier3": {
           "front_plate": {
             "2": 0,
-            "3": 15,
-            "4": 70,
-            "5": 10,
-            "6": 5
+            "3": 16,
+            "4": 75,
+            "5": 7,
+            "6": 2
           },
           "back_plate": {
             "2": 0,
-            "3": 15,
-            "4": 70,
-            "5": 10,
-            "6": 5
+            "3": 16,
+            "4": 75,
+            "5": 7,
+            "6": 2
           },
           "left_side_plate": {
             "2": 0,
-            "3": 15,
-            "4": 70,
-            "5": 10,
-            "6": 5
+            "3": 16,
+            "4": 75,
+            "5": 7,
+            "6": 2
           },
           "right_side_plate": {
             "2": 0,
-            "3": 15,
-            "4": 70,
-            "5": 10,
-            "6": 5
+            "3": 16,
+            "4": 75,
+            "5": 7,
+            "6": 2
           }
         },
         "tier4": {
@@ -864,10 +909,10 @@
     "enable": true,
     "resourceRandomization": {
       "enable": true,
-      "foodRateMaxChance": 65,
-      "foodRateUsagePercent": 50,
-      "medRateMaxChance": 55,
-      "medRateUsagePercent": 50
+      "foodRateMaxChance": 30,
+      "foodRateUsagePercent": 33,
+      "medRateMaxChance": 40,
+      "medRateUsagePercent": 44
     },
     "weaponDurability": {
       "enable": true,
@@ -876,7 +921,7 @@
       "minDelta": 0,
       "maxDelta": 5,
       "minLimitPercent": 90,
-      "enhancementChance": 10
+      "enhancementChance": 15
     },
     "armourDurability": {
       "enable": true,
@@ -887,7 +932,7 @@
       "minLimitPercent": 90
     },
     "lootConfig": {
-      "enable": true,
+      "enable": false,
       "blacklist": []
     },
     "rerollConfig": {
@@ -896,12 +941,14 @@
     },
     "toploadConfig": {
       "enable": true,
-      "chance": 30,
+      "chance": 40,
       "percent": 40
     },
+    "skipBackPlateIfMissingFrontPlate": true,
+    "limitPlateClassToFrontPlateClass": true,
     "questConfig": {
       "enable": true,
-      "chance": 5
+      "chance": 8
     },
     "povertyConfig": {
       "enable": true,
@@ -910,7 +957,7 @@
     "additionalOptions": {
       "enablePrestiging": true,
       "enablePrestigeAnyLevel": true,
-      "seasonalPmcAppearance": false,
+      "seasonalPmcAppearance": true,
       "ammoTierSliding": {
         "enable": false,
         "slideAmount": 1,
@@ -918,13 +965,14 @@
       },
       "gameVersionDogtagChance": 50,
       "gameVersionWeighting": {
-        "enable": true,
-        "standard": 17,
-        "leftBehind": 12,
-        "prepareForEscape": 11,
-        "edgeOfDarkness": 27,
-        "unheardEdition": 22
-      }
+        "enable": false,
+        "standard": 20,
+        "leftBehind": 10,
+        "prepareForEscape": 10,
+        "edgeOfDarkness": 30,
+        "unheardEdition": 20
+      },
+      "useGroundZeroSplit": true
     },
     "secrets": {
       "developerSettings": {
@@ -990,6 +1038,8 @@
       "chance": 30,
       "percent": 30
     },
+    "skipBackPlateIfMissingFrontPlate": false,
+    "limitPlateClassToFrontPlateClass": false,
     "keyConfig": {
       "addAllKeysToScavs": false,
       "addOnlyMechanicalKeysToScavs": false,
@@ -1005,7 +1055,7 @@
     }
   },
   "bossBots": {
-    "enable": true,
+    "enable": false,
     "resourceRandomization": {
       "enable": true,
       "foodRateMaxChance": 50,
@@ -1042,7 +1092,9 @@
       "enable": false,
       "chance": 30,
       "percent": 30
-    }
+    },
+    "skipBackPlateIfMissingFrontPlate": false,
+    "limitPlateClassToFrontPlateClass": false
   },
   "followerBots": {
     "enable": true,
@@ -1082,7 +1134,9 @@
       "enable": false,
       "chance": 30,
       "percent": 30
-    }
+    },
+    "skipBackPlateIfMissingFrontPlate": false,
+    "limitPlateClassToFrontPlateClass": false
   },
   "specialBots": {
     "enable": true,
@@ -1122,8 +1176,11 @@
       "enable": false,
       "chance": 30,
       "percent": 30
-    }
+    },
+    "skipBackPlateIfMissingFrontPlate": false,
+    "limitPlateClassToFrontPlateClass": false
   },
+  "levelPickingMode": 1,
   "customLevelDeltas": {
     "enable": false,
     "tier1": {
@@ -1151,7 +1208,7 @@
       "max": 20
     },
     "tier7": {
-      "min": 50,
+      "min": 75,
       "max": 20
     }
   },
@@ -1182,18 +1239,448 @@
       "max": -10
     },
     "tier7": {
-      "min": 50,
+      "min": 75,
       "max": -10
     }
   },
-  "enableBotEquipmentLog": true,
-  "enableDebugLog": false,
+  "customLevelWeights": {
+    "enable": false,
+    "tier1": [
+      {
+        "tier": 1,
+        "weight": 100
+      },
+      {
+        "tier": 2,
+        "weight": 20
+      },
+      {
+        "tier": 3,
+        "weight": 5
+      },
+      {
+        "tier": 4,
+        "weight": 0
+      },
+      {
+        "tier": 5,
+        "weight": 0
+      },
+      {
+        "tier": 6,
+        "weight": 0
+      },
+      {
+        "tier": 7,
+        "weight": 0
+      }
+    ],
+    "tier2": [
+      {
+        "tier": 1,
+        "weight": 40
+      },
+      {
+        "tier": 2,
+        "weight": 100
+      },
+      {
+        "tier": 3,
+        "weight": 20
+      },
+      {
+        "tier": 4,
+        "weight": 5
+      },
+      {
+        "tier": 5,
+        "weight": 0
+      },
+      {
+        "tier": 6,
+        "weight": 0
+      },
+      {
+        "tier": 7,
+        "weight": 0
+      }
+    ],
+    "tier3": [
+      {
+        "tier": 1,
+        "weight": 10
+      },
+      {
+        "tier": 2,
+        "weight": 40
+      },
+      {
+        "tier": 3,
+        "weight": 100
+      },
+      {
+        "tier": 4,
+        "weight": 20
+      },
+      {
+        "tier": 5,
+        "weight": 5
+      },
+      {
+        "tier": 6,
+        "weight": 0
+      },
+      {
+        "tier": 7,
+        "weight": 0
+      }
+    ],
+    "tier4": [
+      {
+        "tier": 1,
+        "weight": 5
+      },
+      {
+        "tier": 2,
+        "weight": 10
+      },
+      {
+        "tier": 3,
+        "weight": 40
+      },
+      {
+        "tier": 4,
+        "weight": 100
+      },
+      {
+        "tier": 5,
+        "weight": 20
+      },
+      {
+        "tier": 6,
+        "weight": 5
+      },
+      {
+        "tier": 7,
+        "weight": 0
+      }
+    ],
+    "tier5": [
+      {
+        "tier": 1,
+        "weight": 5
+      },
+      {
+        "tier": 2,
+        "weight": 5
+      },
+      {
+        "tier": 3,
+        "weight": 10
+      },
+      {
+        "tier": 4,
+        "weight": 40
+      },
+      {
+        "tier": 5,
+        "weight": 100
+      },
+      {
+        "tier": 6,
+        "weight": 20
+      },
+      {
+        "tier": 7,
+        "weight": 5
+      }
+    ],
+    "tier6": [
+      {
+        "tier": 1,
+        "weight": 5
+      },
+      {
+        "tier": 2,
+        "weight": 5
+      },
+      {
+        "tier": 3,
+        "weight": 5
+      },
+      {
+        "tier": 4,
+        "weight": 10
+      },
+      {
+        "tier": 5,
+        "weight": 40
+      },
+      {
+        "tier": 6,
+        "weight": 100
+      },
+      {
+        "tier": 7,
+        "weight": 20
+      }
+    ],
+    "tier7": [
+      {
+        "tier": 1,
+        "weight": 5
+      },
+      {
+        "tier": 2,
+        "weight": 5
+      },
+      {
+        "tier": 3,
+        "weight": 5
+      },
+      {
+        "tier": 4,
+        "weight": 5
+      },
+      {
+        "tier": 5,
+        "weight": 10
+      },
+      {
+        "tier": 6,
+        "weight": 40
+      },
+      {
+        "tier": 7,
+        "weight": 100
+      }
+    ]
+  },
+  "customScavLevelWeights": {
+    "enable": false,
+    "tier1": [
+      {
+        "tier": 1,
+        "weight": 100
+      },
+      {
+        "tier": 2,
+        "weight": 20
+      },
+      {
+        "tier": 3,
+        "weight": 5
+      },
+      {
+        "tier": 4,
+        "weight": 0
+      },
+      {
+        "tier": 5,
+        "weight": 0
+      },
+      {
+        "tier": 6,
+        "weight": 0
+      },
+      {
+        "tier": 7,
+        "weight": 0
+      }
+    ],
+    "tier2": [
+      {
+        "tier": 1,
+        "weight": 40
+      },
+      {
+        "tier": 2,
+        "weight": 100
+      },
+      {
+        "tier": 3,
+        "weight": 20
+      },
+      {
+        "tier": 4,
+        "weight": 5
+      },
+      {
+        "tier": 5,
+        "weight": 0
+      },
+      {
+        "tier": 6,
+        "weight": 0
+      },
+      {
+        "tier": 7,
+        "weight": 0
+      }
+    ],
+    "tier3": [
+      {
+        "tier": 1,
+        "weight": 10
+      },
+      {
+        "tier": 2,
+        "weight": 40
+      },
+      {
+        "tier": 3,
+        "weight": 100
+      },
+      {
+        "tier": 4,
+        "weight": 20
+      },
+      {
+        "tier": 5,
+        "weight": 5
+      },
+      {
+        "tier": 6,
+        "weight": 0
+      },
+      {
+        "tier": 7,
+        "weight": 0
+      }
+    ],
+    "tier4": [
+      {
+        "tier": 1,
+        "weight": 5
+      },
+      {
+        "tier": 2,
+        "weight": 10
+      },
+      {
+        "tier": 3,
+        "weight": 40
+      },
+      {
+        "tier": 4,
+        "weight": 100
+      },
+      {
+        "tier": 5,
+        "weight": 20
+      },
+      {
+        "tier": 6,
+        "weight": 5
+      },
+      {
+        "tier": 7,
+        "weight": 0
+      }
+    ],
+    "tier5": [
+      {
+        "tier": 1,
+        "weight": 5
+      },
+      {
+        "tier": 2,
+        "weight": 5
+      },
+      {
+        "tier": 3,
+        "weight": 10
+      },
+      {
+        "tier": 4,
+        "weight": 40
+      },
+      {
+        "tier": 5,
+        "weight": 100
+      },
+      {
+        "tier": 6,
+        "weight": 20
+      },
+      {
+        "tier": 7,
+        "weight": 5
+      }
+    ],
+    "tier6": [
+      {
+        "tier": 1,
+        "weight": 5
+      },
+      {
+        "tier": 2,
+        "weight": 5
+      },
+      {
+        "tier": 3,
+        "weight": 5
+      },
+      {
+        "tier": 4,
+        "weight": 10
+      },
+      {
+        "tier": 5,
+        "weight": 40
+      },
+      {
+        "tier": 6,
+        "weight": 100
+      },
+      {
+        "tier": 7,
+        "weight": 20
+      }
+    ],
+    "tier7": [
+      {
+        "tier": 1,
+        "weight": 5
+      },
+      {
+        "tier": 2,
+        "weight": 5
+      },
+      {
+        "tier": 3,
+        "weight": 5
+      },
+      {
+        "tier": 4,
+        "weight": 5
+      },
+      {
+        "tier": 5,
+        "weight": 10
+      },
+      {
+        "tier": 6,
+        "weight": 40
+      },
+      {
+        "tier": 7,
+        "weight": 100
+      }
+    ]
+  },
+  "debug": {
+    "enableBotEquipmentLog": true,
+    "enableDebugLog": false,
+    "modImportTuning": {
+      "enableModImportTuningSuccessLogs": false,
+      "botTypeToCheck": "pmc",
+      "tierToCheck": 3
+    }
+  },
   "configAppSettings": {
     "showUndo": true,
     "showDefault": false,
-    "disableAnimations": false,
-    "allowUpdateChecks": false,
-    "requireAuthCode": false,
-    "authCode": "Kitten Mittons"
+    "allowUpdateChecks": true
   }
 }
